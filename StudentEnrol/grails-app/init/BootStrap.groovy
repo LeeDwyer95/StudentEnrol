@@ -28,6 +28,24 @@ code:'IMA560',
 startDate:new Date('19/01/2015'),
 endDate:new Date('19/01/2020')).save()
 
+def student1= new Student(
+name: 'Sam',
+studentid: '1001',
+dob:new Date('08/01/1995'),
+email: 'sam@hotmail.co.uk',
+username: 'sam1',
+password: 'samsam1',
+course: 'computing').save()
+
+def student2= new Student(
+name: 'Louise',
+studentid: '2012',
+dob:new Date('09/10/1994'),
+email: 'louise94@gmail.com',
+username: 'lou94',
+password: 'loulou',
+course: 'computer Science').save()
+
     }
     def destroy = {
     }
