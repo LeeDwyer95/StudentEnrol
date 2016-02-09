@@ -46,6 +46,22 @@ username: 'lou94',
 password: 'loulou',
 course: 'computer Science').save()
 
+def Lecturer1=new Lecturer(
+name: 'James',
+post: 'fssdarfsad',
+email: 'jjjames@hotmail.co.uk',
+department: 'ACES',
+subject: 'computing',
+research: 'none').save()
+
+def Lecturer2=new Lecturer(
+name: 'Paul',
+post: 'fssdarf',
+email: 'paulll@hotmail.co.uk',
+department: 'ACES',
+subject: 'computing',
+research: 'none').save()
+
     }
     def destroy = {
     }
